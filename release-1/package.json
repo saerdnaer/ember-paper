@@ -3,8 +3,8 @@
   "fastboot": {
     "moduleWhitelist": [],
     "manifest": {
-      "appFile": "fastboot/dummy-6412a4fa2d2f2dbdfd91d9bd7e727194.js",
-      "vendorFile": "fastboot/vendor-d0344162c481e79ab412e65e594e3f47.js",
+      "appFile": "fastboot/dummy-fe88b414dc12a942be9118482956b152.js",
+      "vendorFile": "fastboot/vendor-315e76008a2d7d97b9fdd41cdd452d4f.js",
       "htmlFile": "index.html"
     },
     "appConfig": {
@@ -18,7 +18,7 @@
       "APP": {
         "rootElement": "body",
         "name": "ember-paper",
-        "version": "1.0.0-alpha.6+4e93868b",
+        "version": "1.0.0-alpha.8+74b18f8c",
         "autoboot": false
       },
       "contentSecurityPolicy": {
@@ -31,7 +31,6 @@
         "media-src": "'self'",
         "child-src": "'self' https://buttons.github.io"
       },
-      "contentSecurityPolicyHeader": "Content-Security-Policy-Report-Only",
       "exportApplicationGlobal": false
     }
   }
