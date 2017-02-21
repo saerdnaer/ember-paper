@@ -1,0 +1,43 @@
+{
+  "dependencies": {},
+  "fastboot": {
+    "moduleWhitelist": [],
+    "manifest": {
+      "appFile": "fastboot/dummy-9ffac5b576509e622596206e26ea203f.js",
+      "vendorFile": "fastboot/vendor-dd49194da46e9cf943d56b7ed3004166.js",
+      "htmlFile": "index.html"
+    },
+    "appConfig": {
+      "modulePrefix": "dummy",
+      "environment": "production",
+      "rootURL": "/ember-paper/release-1",
+      "locationType": "hash",
+      "EmberENV": {
+        "FEATURES": {},
+        "EXTEND_PROTOTYPES": {
+          "Date": false
+        }
+      },
+      "APP": {
+        "rootElement": "body",
+        "name": "ember-paper",
+        "version": "1.0.0-alpha.16+65396df9",
+        "autoboot": false
+      },
+      "contentSecurityPolicy": {
+        "default-src": "'none'",
+        "script-src": "'self' 'unsafe-inline' 'unsafe-eval' https://buttons.github.io https://api.github.com",
+        "font-src": "'self' https://fonts.gstatic.com",
+        "style-src": "'self' 'unsafe-inline' https://buttons.github.io https://fonts.googleapis.com",
+        "connect-src": "'self'",
+        "img-src": "'self' data:",
+        "media-src": "'self'",
+        "child-src": "'self' https://buttons.github.io"
+      },
+      "ember-paper": {
+        "insertFontLinks": true
+      },
+      "exportApplicationGlobal": false
+    }
+  }
+}
