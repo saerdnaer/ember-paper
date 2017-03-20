@@ -44,5 +44,11 @@ export default BaseFocusable.extend(RippleMixin, ProxiableMixin, ColorMixin, {
     }
 
     return this.get('bubbles');
+  },
+  // needed for iOS
+  // iOS doesn't trigger a click event on normal divs
+  // unless we use `cursor: pointer` css
+  touchEnd() {
+    this.click();
   }
 });
